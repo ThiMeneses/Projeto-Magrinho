@@ -1,0 +1,364 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    background-color: #C0C0C0;
+    
+
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+   
+}
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
+.logo img {
+    max-width: 220px;
+    max-height: 220px;
+    margin-top: 20px;
+   
+    
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    
+  
+}
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav ul {
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #1a1a1a;
+}
+nav .active a,
+nav a:hover {
+    background-color: #4F4F4F;
+    color: #FFFFFF;
+    
+   
+}
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image: url(../image/backgroundbarber2.0.jpg);
+    background-position: right;
+    background-size: cover;
+    
+
+}
+.column {
+    flex-direction: column;
+}
+.banner_headline {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner_headline h1 {
+    color: #FFFFFF;
+    font-size: 70px;
+    text-shadow: 1px 1px #000;
+    margin: 0px;
+    padding: 0px;
+    max-width: 350px;
+}
+.banner_headline h2 {
+    color: #FFFFFF;
+    font-size: 21px;
+    text-shadow: 1px 1px #000;
+    margin: 0px;
+    padding: 0px;
+    max-width: 350px;
+    margin-top: 30px;
+}
+.banner_options {
+    height: 210px;
+    display: flex;
+}
+.banner1,
+.banner2,
+.banner3 {
+    flex: 1;
+    color: #191919;
+    padding: 20px;
+}
+.banner1 {
+    background-color: #D3D3D3;
+}
+.banner2 {
+    background-color: #C0C0C0;
+}
+.banner3 {
+    background-color: #A9A9A9;
+}
+.banner_title {
+    font-size: 21px;
+}
+.banner_desc {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.banner_options a {
+    display:inline-block;
+    border: 1px solid #191919;
+    padding: 5px;
+    color: #191919;
+    font-size: 13px;
+    text-decoration:none;
+}
+.banner_desc1 {
+    border-bottom: 1px solid #D3D3D3;
+    justify-content: space-between;
+    font-size: 13px;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 1px;
+}
+.banner_desc2 {
+    justify-content: flex-end;
+    font-size: 13px;
+    display: flex;
+    margin-top: 8px;
+    padding: 1px;
+}
+#geral {
+    display: flex;
+    justify-content: center;
+    background-color: #191919;
+    
+}
+#geral section {
+    flex: 2;
+    padding: 20px;   
+}
+#geral aside {
+    flex: 1;
+}
+.widget_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.widget_title_text {
+    color: #000000;
+    font-size: 21px;
+    font-weight: bold;
+
+}
+.widget_title_bar {
+    width: 50px;
+    height: 2px;
+    background-color: #A9A9A9;
+    margin-top: 10px;
+}
+.widget_square1,
+.widget_square2,
+.widget_square3  {    
+    height: 120px;
+    width: 120px;    
+    display: flex;   
+    margin: 18px;
+    justify-content: flex-start;
+}
+.widget_square4,
+.Widget_square5,
+.widget_square6 {    
+    height: 120px;
+    width: 120px;    
+    display: flex;    
+    margin: 18px;
+    justify-content: flex-end;
+      
+
+}
+.widget_body {
+    display: flex;
+    flex-wrap: wrap;
+}
+.widget_square1 {
+    background-image: url(../image/Foto-para-banner.jpg);
+    background-size: cover;
+}
+.widget_square2 {
+    background-image: url(../image/Foto-para-banner1.jpg);
+    background-size: cover;
+
+}
+.widget_square3 {
+    background-image: url(../image/Foto-para-banner2.jpg);
+    background-size: cover;
+}
+.widget_square4 {
+    background-image: url(../image/Foto-para-banner3.jpg);
+    background-size: cover;
+}
+.Widget_square5 {
+    background-image: url(../image/Foto-para-banner4.jpg);
+    background-size: cover;
+
+}
+.widget_square6{
+    background-image: url(../image/Foto-para-banner5.jpg);
+    background-size: cover;
+
+}
+.widget_body a {
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    padding: 60px;
+
+}
+.widget_body1 {
+    display: flex;
+}
+.widget_bodyimg img {
+    width: 250px;
+    height: 250px;
+}
+.widget_bodytext {
+    font-size: 15px;
+    text-align: justify;
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+}
+#geral .container {
+    background-color:#FFFFFF;
+    
+}
+footer {
+    display: flex;    
+    justify-content:center;
+    background-color: #191919;
+    border-top: 1px solid #2c2c2c;
+    border-bottom: 1px solid #2c2c2c;
+    padding:6px;
+}
+.footer_member{
+    display: flex;
+    
+}
+.footer_thiago {
+    color: #777777;     
+    font-size: 12px;    
+    width: 100%;    
+}
+.footer_thiago a {
+    text-decoration: none;
+    outline: none;
+    color: #777777;
+}
+.menumobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+.mmline {
+    height: 3px;
+    background-color: #4F4F4F;
+}
+
+@media (max-width: 600px) {
+    .banner_headline {
+        padding: 20px;
+    }
+    .banner_headline h1 {
+        font-size: 55px;
+    }
+    .banner_headline h2 {
+        font-size: 17px;
+    }
+    .banner_options{
+        height:auto;
+        flex-direction: column;
+    }
+    .container {
+        flex-direction: column;        
+    }
+    
+    #geral section,
+    #geral aside {
+        padding: 20px;        
+        
+    }
+    .widget {
+        margin-top: 100px;
+    }
+    header .container {
+        flex-direction: row;
+    }
+    nav ul {
+        flex-direction: column;
+        display: none;
+    }
+    header {
+        height: auto;
+    }
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 500px;
+        background-color: #FFFFFF;
+    }
+    .logo {
+        padding-left: 20px;
+    }
+    .menumobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+  
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
